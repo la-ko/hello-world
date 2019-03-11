@@ -1,0 +1,10 @@
+Minishift
+---------
+
+minishift ssh docker images
+
+
+oc
+--
+
+oc delete all --selector app=hello-world
