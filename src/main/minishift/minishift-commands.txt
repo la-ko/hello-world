@@ -1,10 +1,12 @@
 Minishift
 ---------
-
-minishift ssh docker images
+minishift console               # Web-Konsole im Standard-Browser anzeigen
+minishift ssh                   # Ssh in den Minishift Container
+minishift ssh docker images     # Lokale Docker Images im Minishift Container anzeigen
 
 
 oc
 --
-
-oc delete all --selector app=hello-world
+oc login -u developer                       # Als Entwickler anmelden
+oc get pods -w                              # Alle Pods im aktuellen Projekt anzeigen
+oc delete all --selector app=hello-world    # Alle Artefakte einer Applikation löschen
