@@ -1,8 +1,9 @@
 Minishift
 ---------
-minishift console               # Web-Konsole im Standard-Browser anzeigen
-minishift ssh                   # Ssh in den Minishift Container
-minishift ssh docker images     # Lokale Docker Images im Minishift Container anzeigen
+minishift console                       # Web-Konsole im Standard-Browser anzeigen
+minishift ssh                           # Ssh in den Minishift Container
+minishift ssh docker images             # Lokale Docker Images im Minishift Container anzeigen
+minishift ssh docker inspect <image-id> # Docker Image untersuchen
 
 
 oc
